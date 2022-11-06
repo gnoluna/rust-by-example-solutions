@@ -3,6 +3,7 @@ mod testcase_list;
 mod formatting;
 mod tuples;
 mod structures;
+mod python_to_rust;
 
 fn main() {
     /* 1.2.2 Display
@@ -62,5 +63,7 @@ fn main() {
     left corner on the point, and a width and height corresponding to the f32.
 
     */
-    structures::main();
+    // structures::main();
+
+    python_to_rust::main();
 }

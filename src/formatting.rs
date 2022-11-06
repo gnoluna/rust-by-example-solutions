@@ -38,7 +38,7 @@ impl Display for Color {
 #[allow(dead_code)]
 pub fn main() {
     for city in [
-        City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
+        City { name: "Dublin", lat: 53.347_78, lon: -6.259722 },
         City { name: "Oslo", lat: 59.95, lon: 10.75 },
         City { name: "Vancouver", lat: 49.25, lon: -123.1 },
     ].iter() {
