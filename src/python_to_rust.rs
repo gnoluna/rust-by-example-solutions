@@ -78,6 +78,22 @@ pub fn main() {
 
 
     /*
+        Logical operators
+    */
+
+    let (a, b) = (true, false);
+    println!("{}", a && b); // a and b
+    println!("{}", a || b); // a or b
+    println!("{}", !a); // not a
+
+
+
+    /*
+        Conditional Expression
+    */
+
+
+    /*
         For loop
 
         Python:
